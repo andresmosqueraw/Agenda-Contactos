@@ -1,0 +1,84 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #F5F5F7;
+    color: #000;
+}
+
+.container{
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font: 2.3rem;
+}
+
+.formulario-datos{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-datos input{
+    margin: 1rem 0rem;
+    line-height: 3rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: #000;
+    border-bottom: 1px solid #333;
+}
+
+.formulario-datos input:active{
+    border-bottom: 1px solid #007AFF;
+}
+
+.formulario-datos input:focus{
+    border-bottom: 1px solid #007AFF;
+}
+
+.formulario-datos button{
+    margin: 1rem 0rem;
+    background-color: #007AFF;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 3rem;
+    color: #F5F5F7;
+    cursor: pointer;
+    font-size: 90%;
+    margin-bottom: 10%;
+}
+
+.listado-tareas{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.icono{
+    cursor: pointer;
+    height: 0px;
+    color: #ED001A;
+}
